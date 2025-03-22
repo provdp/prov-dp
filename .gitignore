@@ -1,0 +1,18 @@
+# Directories
+__pycache__/
+.idea/
+.run/
+.pytest_cache
+
+# File types
+*.pdf
+*.zip
+*.bin
+*.pickle
+*.pkl
+*.DS_STORE
+*.pyc
+
+# ProvNinja Intermediatory
+GNN-based-IDS/ProvNinja/images/*
+GNN-based-IDS/ProvNinja/runs/*

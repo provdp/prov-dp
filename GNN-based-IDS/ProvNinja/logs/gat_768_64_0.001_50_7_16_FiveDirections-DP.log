@@ -1,0 +1,25 @@
+2025-03-20 17:08:20,201 | INFO	| using C:\Users\Kunal Mukherjee\Downloads\prov-dp\GNN-based-IDS\Data\FiveDirections-DP\ as input data directory
+2025-03-20 17:08:20,201 | INFO	| 7 Layer GAT. Input Feature Size: 768. Hidden Layer Size(s): 64. Loss Rate: 0.001. Batch Size: 16
+2025-03-20 17:08:20,201 | INFO	| Input Device: cpu
+2025-03-20 17:08:20,201 | INFO	| Variable Prediction Threshold for Anomalous graphs have been enabled & set to 0.01
+2025-03-20 17:08:20,201 | INFO	| Training on 50 epochs...
+2025-03-20 17:08:20,829 | INFO	| Length of dataset: 521
+2025-03-20 17:08:20,849 | INFO	| Evaluating on Device: cpu
+2025-03-20 17:08:20,849 | INFO	| # Parameters in model: 125129
+2025-03-20 17:08:20,849 | INFO	| # Trainable parameters in model: 125129
+2025-03-20 17:08:20,849 | INFO	| Stratified sampler enabled
+2025-03-20 17:08:34,310 | INFO	| === test stats ===
+2025-03-20 17:08:34,310 | INFO	| Number Correct: 95
+2025-03-20 17:08:34,311 | INFO	| Number Graphs in test Data: 105
+2025-03-20 17:08:34,311 | INFO	| test accuracy: 0.90476
+2025-03-20 17:08:34,312 | INFO	| [[90 10]
+ [ 0  5]]
+2025-03-20 17:08:34,314 | INFO	|               precision    recall  f1-score   support
+
+      Benign       1.00      0.90      0.95       100
+     Anomaly       0.33      1.00      0.50         5
+
+    accuracy                           0.90       105
+   macro avg       0.67      0.95      0.72       105
+weighted avg       0.97      0.90      0.93       105
+
