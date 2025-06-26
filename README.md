@@ -45,7 +45,7 @@ $ python provgat.py -if 768 -hf 64 -lr 0.001 -e 50 -n 7 -bs 16 -dl 'C:\Users\pro
 
 ## Citing Us
 
-```
+```bibtex
 @inproceedings{mukherjee2025provDP,
 	title        = {ProvDP: Differential Privacy for System Provenance Dataset},
 	author       = {Kunal Mukherjee and Jonathan Yu and Partha De and Dinil Mon Divakaran},
