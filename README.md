@@ -1,6 +1,6 @@
 # ProvDP: Differential Privacy for System Provenance Dataset
 
-Reproducibility artifacts for the paper ProvDP: Differential Privacy for System Provenance Dataset. The paper can be found at [`ProvDP Differential Privacy for System Provenance Dataset`](https://github.com/provdp/prov-dp/blob/main/ProvDP%20Differential%20Privacy%20for%20System%20Provenance%20Dataset.pdf), and the content presented at ACNS 2025 can be found [here](https://github.com/provdp/prov-dp/blob/main/ProvDP%20ACNS%202025.pdf)
+Reproducibility artifacts for the paper ProvDP: Differential Privacy for System Provenance Dataset. The paper can be found at [`ProvDP Differential Privacy for System Provenance Dataset`](https://github.com/provdp/prov-dp/blob/main/ProvDP%20Differential%20Privacy%20for%20System%20Provenance%20Dataset.pdf), and the slides presented at ACNS 2025 can be found [here](https://github.com/provdp/prov-dp/blob/main/ProvDP%20ACNS%202025.pdf).
 
 ## Environment Setup
 1. Create a new virtual environment: `pip -m venv venv` or `conda create --name provdp python=3.11`
